@@ -1,5 +1,5 @@
 name: Gitleaks Scan
-on: [push, pull_request, workflow_dispach]
+on: [push, pull_request, workflow_dispatch]
 jobs:
   gitleaks:
     name: Scan for secrets
